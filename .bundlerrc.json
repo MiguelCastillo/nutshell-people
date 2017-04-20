@@ -1,0 +1,19 @@
+{
+  "excludes": [],
+  "extensions": ["js", "jsx", "css", "json"],
+
+  "eslint": { "extensions": ["js", "jsx"] },
+
+  "js": { "extensions": ["js", "jsx"] },
+  "css": { "extensions": ["css"] },
+  "json": { "extensions": ["json"] },
+
+  "babel": { "extensions": ["js", "jsx"] },
+  "httpresource": {},
+  "builtins": {},
+  "cache": false,
+
+  "shards": {
+    "dist/vendor.js": "/node_modules/"
+  }
+}
